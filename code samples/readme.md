@@ -1,0 +1,1 @@
+This directory contains code samples for AWS Elastic Beanstalk. 
