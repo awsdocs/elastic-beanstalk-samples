@@ -34,6 +34,7 @@ The following procedure walks you through setting up Symfony2 on a Linux operati
 > **Note** You may need to set the date.timezone in the php.ini to successfully complete installation.
 
 > When prompted to install the Acme demo bundle, enter y. When prompted, accept the default values for the following parameters.
+
     database_driver (pdo_mysql): 
     database_host (127.0.0.1): 
     database_port (null): 
@@ -48,6 +49,7 @@ The following procedure walks you through setting up Symfony2 on a Linux operati
     secret (ThisTokenIsNotSoSecretChangeIt):
 
 3 . Change directory to **symfony2_example/&lt;version number&gt;** and initialize the Git repository.
+
 
     git init 
 
