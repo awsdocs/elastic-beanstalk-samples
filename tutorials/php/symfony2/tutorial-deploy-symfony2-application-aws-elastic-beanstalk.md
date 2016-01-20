@@ -1,11 +1,11 @@
 Deploying a Symfony2 Application to AWS Elastic Beanstalk
 =========================================================
 
-This tutorial walks you through deploying a sample application from Linux/UNIX to AWS Elastic Beanstalk using eb (an updated command line interface) and Git, and then updating the application to use the Symfony2 framework.
+This tutorial walks you through deploying a sample application from Linux/UNIX to AWS Elastic Beanstalk using eb (an updated command line interface) and Git, and then updating the application to use the [Symfony2] (http://symfony.com/) framework.
 
 Step 1: Install the Elastic Beanstalk Command Line Interface (CLI) and Set Up Your Git Repository
 ------------------------------------------------------------------------
-Eb is a command line interface that helps you deploy applications quickly and easily using Git. 
+The [Elastic Beanstalk command line interface](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3.html) (EB CLI) is a command line interface that helps you deploy applications quickly and easily using Git. 
 
 **To install eb, its prerequisite software, and initialize your Git repository**
 
@@ -97,9 +97,10 @@ Next, you need to configure Composer. Composer dependencies require that you set
 
 Step 3: Configure AWS Elastic Beanstalk
 ---------------------------------------
-The following instructions use the [Elastic Beanstalk command line interface](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3.html) (EB CLI) to configure an Elastic Beanstalk application repository in your local project directory. 
+The following instructions use the EB CLI to configure an Elastic Beanstalk application repository in your local project directory. 
 
 **To Configure AWS Elastic Beanstalk**
+
 1 .  From the directory where you created your local repository, type the following command:
 
     eb init
