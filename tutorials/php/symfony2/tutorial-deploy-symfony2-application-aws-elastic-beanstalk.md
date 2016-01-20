@@ -79,7 +79,7 @@ Next, you need to configure Composer. Composer dependencies require that you set
 
 > You can have multiple configuration files in your .ebextensions
 > directory. For information about the file format of configuration
-> files, see Using Configuration Files.
+> files, see [Advanced Environment Customization with Configuration Files (.ebextensions)](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/ebextensions.html).
 > 
 > **Note** &nbsp; Configuration files should conform to YAML or JSON formatting standards. For more information, go to http://www.yaml.org/start.html
 > or http://www.json.org, respectively.
