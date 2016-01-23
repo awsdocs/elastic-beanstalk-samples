@@ -90,12 +90,14 @@ Next, you need to configure Composer. Composer dependencies require that you set
 
     commands:
       01updateComposer:
-        command: export COMPOSER_HOME=/root && /usr/bin/composer.phar self-update
+        command: export COMPOSER_HOME=/root && /usr/bin/composer.phar self-update 1.0.0-alpha11
 
     option_settings:
       - namespace: aws:elasticbeanstalk:application:environment
         option_name: COMPOSER_HOME
         value: /root
+
+> Replace `1.0.0-alpha11` with your preferred version of composer. See [getcomposer.org/download](https://getcomposer.org/download/) for a list of available versions.
 
 Step 3: Configure AWS Elastic Beanstalk
 ---------------------------------------
