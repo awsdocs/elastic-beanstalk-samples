@@ -3,3 +3,6 @@ Configure the load balancer in your environment to upload access logs to an exis
 
 ### loadbalancer-accesslogs-newbucket.config
 Create a new bucket and configure the load balancer to write access logs to it.
+
+### loadbalancer-idle-timeout.config
+Updating the idle timeout value for the load balancer.
