@@ -12,5 +12,10 @@ Modify your instance's security group to allow HTTPS traffic on port 443. Use in
 ### securitygroup-addexisting.config
 Configure the Auto Scaling Group to launch EC2 instances with an existing Security Group. This is an additional Security Group to the one automatically created by Elastic Beanstalk for the EC2 instances. Useful when configuring a database's instance Security Group to only accept connections from a specific source Security Group of your Elastic Beanstalk environment's instances.
 
+### securitygroup-loadbalanced-configureexisting.config
+This will override existing configuration of the Security Groups for both the instance and the ELB
+
 ### ssh-sourcerestriction.config
 Use the `SSHSourceRestriction` option in the `aws:autoscaling:launchconfiguration` namespace to restrict SSH traffic to connections from instances in a security group that you control. By default, Elastic Beanstalk opens port 22 to the world when you assign a key pair to your instances. Use this configuration file to override that behavior.
+
+
