@@ -6,3 +6,6 @@ Use the `Resources` key to create a new file system in Amazon Elastic File Syste
 
 ### storage-efs-mountfilesystem.config
 Mount an Amazon EFS file system to a local path on the instances in your environment. You can create the volume as part of the environment with `storage-efs-createfilesystem.config`, or external to your environment by using the Amazon EFS Management Console, AWS CLI, or an SDK.
+
+### storage-imagevolume-docker.config
+Configure the volume used by the instances in your Docker environment.
