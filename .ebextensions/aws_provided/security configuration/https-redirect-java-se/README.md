@@ -15,8 +15,8 @@
 ###################################################################################################
 #### This directory structure and configuration file inside your .ebextensions folder:
 #### nginx/conf.d/elasticbeanstalk/00_application.conf
-#### configures Nginx for Go environments to redirect HTTP requests on port 80 to HTTPS on port
-#### 443 after you have configured your environment to support HTTPS connections.
+#### configures Nginx for Java SE environments to redirect HTTP requests on port 80 to HTTPS on
+#### port 443 after you have configured your environment to support HTTPS connections.
 ####
 #### Configuring Your Elastic Beanstalk Environment's Load Balancer to Terminate HTTPS:
 ####  http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/configuring-https-elb.html
@@ -26,6 +26,6 @@
 ####
 #### Information on the EB extension configuration directory structure for the reverse proxy:
 #### Configuring the Reverse Proxy:
-####  http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/go-environment.html#go-nginx
+####  http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/java-se-platform.html#java-se-nginx
 ###################################################################################################
 ```
