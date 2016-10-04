@@ -16,12 +16,14 @@
 #### The following files configure your Ruby Passenger Single instance environment to redirect HTTP
 #### requests on port 80 to HTTPS on port 443 after you have configured your environment to support
 #### HTTPS connections. 
+####
 ####  https-redirect-ruby-passenger.config
 ####  passenger-standalone.json
 ####
 #### Both files are to be placed inside your .ebextensions folder. Also note the
 #### passenger-standalone.json file already contains some of the configuration needed to configure
-#### HTTPS on the instance. The full guide to complete the HTTPS configuration:
+#### HTTPS on the instance. The full guide to complete the HTTPS configuration on the instance:
+####
 #### Configure HTTPS for Ruby with Passenger:
 ####  http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/https-singleinstance-ruby.html#Passenger
 ###################################################################################################
