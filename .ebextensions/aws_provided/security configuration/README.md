@@ -3,7 +3,7 @@ Install a certificate and private key stored in Amazon S3, and configure the pro
 
 For single instance environments, include `https-singleinstance-securitygroup.config` as well to allow HTTPS traffic through the instance's security group.
 
-### https-redirect-(platform).config
+### https-redirect-*-(platform).config or https-redirect-*-(platform)/ folder
 Configure the proxy server that runs in front of your application to redirect HTTP requests on port 80 to the same path on HTTPS/443.
 
 ### https-singleinstance-securitygroup.config
