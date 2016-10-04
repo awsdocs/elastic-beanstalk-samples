@@ -1,0 +1,3 @@
+{
+   "nginx_config_template" : "/opt/elasticbeanstalk/support/conf/http-redirection.erb"
+}
