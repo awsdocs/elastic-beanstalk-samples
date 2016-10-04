@@ -13,19 +13,11 @@
 ###################################################################################################
 
 ###################################################################################################
-#### The following directory structure and configuration file inside your .ebextensions folder:
+#### The following directory structure and configuration file to be placed inside your
+#### .ebextensions folder:
 #### httpd/conf.d/elasticbeanstalk.conf
 #### configures Apache for Java Tomcat environments to redirect HTTP requests on port 80 to HTTPS
 #### on port 443 after you have configured your environment to support HTTPS connections.
-####
-#### The following directory structure and configuration file inside your .ebextensions folder:
-#### nginx/conf.d/elasticbeanstalk/00_application.conf
-#### configures Nginx for Java Tomcat environments to redirect HTTP requests on port 80 to HTTPS on
-#### port 443 after you have configured your environment to support HTTPS connections.
-####
-#### Note the default reverse proxy for Java Tomcat is Apache. To enable Nginx:
-#### Configuring the Proxy Server:
-####  http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/java-tomcat-platform.html#java-tomcat-proxy
 ####
 #### Configuring Your Elastic Beanstalk Environment's Load Balancer to Terminate HTTPS:
 ####  http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/configuring-https-elb.html
@@ -36,7 +28,5 @@
 #### Information on the EB extension configuration directory structure for the reverse proxy:
 #### Configuring the Apache Reverse Proxy:
 ####  http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/java-tomcat-platform.html#java-tomcat-proxy-apache
-#### Configuring the Nginx Reverse Proxy:
-####  http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/java-tomcat-platform.html#java-tomcat-proxy-nginx
 ###################################################################################################
 ```

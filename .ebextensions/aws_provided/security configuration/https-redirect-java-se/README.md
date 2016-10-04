@@ -13,7 +13,7 @@
 ###################################################################################################
 
 ###################################################################################################
-#### This directory structure and configuration file inside your .ebextensions folder:
+#### This directory structure and configuration file to be placed inside your .ebextensions folder:
 #### nginx/conf.d/elasticbeanstalk/00_application.conf
 #### configures Nginx for Java SE environments to redirect HTTP requests on port 80 to HTTPS on
 #### port 443 after you have configured your environment to support HTTPS connections.
