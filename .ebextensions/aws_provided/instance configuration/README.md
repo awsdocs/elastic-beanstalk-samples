@@ -6,3 +6,12 @@ Use the `Resources` key to create a new file system in Amazon Elastic File Syste
 
 ### storage-efs-mountfilesystem.config
 Mount an Amazon EFS file system to a local path on the instances in your environment. You can create the volume as part of the environment with `storage-efs-createfilesystem.config`, or external to your environment by using the Amazon EFS Management Console, AWS CLI, or an SDK.
+
+### cloudwatch-logs.config
+Install and configure the AWS CloudWatch Logs agent. By default it will let your send the following logs, streamed to CloudWatch Logs, prependend with the instance name, for central management:
+ - /var/log/messages
+ - /var/log/eb-activity.log
+ - /var/log/eb-cfn-init.log
+ - /var/log/eb-commandprocessor.log
+ - /var/log/eb-publish-logs.log
+ - /var/log/eb-tools.log
