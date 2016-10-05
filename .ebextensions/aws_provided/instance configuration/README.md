@@ -15,3 +15,6 @@ Install and configure the AWS CloudWatch Logs agent. By default it will let your
  - /var/log/eb-commandprocessor.log
  - /var/log/eb-publish-logs.log
  - /var/log/eb-tools.log
+
+### oracle-jdk.config
+Install Oracle Java Development Kit (JDK) and make it the default Java Development Kit to use.
