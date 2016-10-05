@@ -3,3 +3,6 @@ Configure the load balancer in your environment to upload access logs to an exis
 
 ### loadbalancer-accesslogs-newbucket.config
 Create a new bucket and configure the load balancer to write access logs to it.
+
+### add-auto-scaling-notifications.config
+Use your current SNS topic to receive scaling notifications for auto scaling activities for your environment.
