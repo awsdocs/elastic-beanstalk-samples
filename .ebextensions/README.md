@@ -44,3 +44,9 @@ Use the following block to indicate the fold below which no values should be cha
 #### Do not modify values below this line ####
 ##############################################
 ```
+
+For complex use cases, you can split your configuration into multiple files. For example, configuring HTTPS end-to-end involves multiple resources - terminating HTTPS on the load balancer, security group and backend port configuration, and terminating HTTPS again at the instance. Much of this configuration is also useful alone or in other use cases, so each piece is provided in an independent config file with instructions for supported use cases in each.
+
+If the components are not independent or re-usable, create a subfolder for the use case in the appropriate category folder (e.g. security configuration) and include all needed configs and instructions.
+
+Create a separate pull request and branch for each use case.
