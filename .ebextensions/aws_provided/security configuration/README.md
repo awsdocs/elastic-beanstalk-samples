@@ -9,6 +9,9 @@ Configure the proxy server that runs in front of your application to redirect HT
 ### https-singleinstance-securitygroup.config
 Modify your instance's security group to allow HTTPS traffic on port 443. Use in conjunction with `https-instancecert-<platform>.config` to support HTTPS connections in a single instance environment.
 
+### rds-ssl-java.config
+Install SSL certificates for RDS database connections with JDBC.
+
 ### securitygroup-addexisting.config
 Configure the Auto Scaling Group to launch EC2 instances with an existing Security Group. This is an additional Security Group to the one automatically created by Elastic Beanstalk for the EC2 instances. Useful when configuring a database's instance Security Group to only accept connections from a specific source Security Group of your Elastic Beanstalk environment's instances.
 
