@@ -20,7 +20,8 @@
 ####  https-redirect-ruby-passenger.config
 ####  passenger-standalone.json
 ####
-#### Both files are to be placed inside your .ebextensions folder.
+#### https-redirect-ruby-passenger.config is to be placed inside your .ebextensions folder.
+#### passenger-standalone.json is to be placed inside the root of your application bundle.
 #### 
 #### Configuring Your Elastic Beanstalk Environment's Load Balancer to Terminate HTTPS:
 ####  http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/configuring-https-elb.html
