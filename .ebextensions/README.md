@@ -1,4 +1,6 @@
 ## Contribution instructions
+You can submit new configuration files to the [community_provided](https://github.com/awslabs/elastic-beanstalk-docs/tree/master/.ebextensions/community_provided) folder.
+
 Name the configuration file in lowercase with terms that describe the category and use case separated by hyphens, ordered from general to specific. For example:
  
   `https-instancecert-dotnet.config`
