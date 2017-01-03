@@ -20,11 +20,13 @@
 ####  https-redirect-ruby-passenger.config
 ####  passenger-standalone.json
 ####
-#### Both files are to be placed inside your .ebextensions folder. Also note the
-#### passenger-standalone.json file already contains some of the configuration needed to configure
-#### HTTPS on the instance. The full guide to complete the HTTPS configuration on the instance:
+#### https-redirect-ruby-passenger.config is to be placed inside your .ebextensions folder.
+#### passenger-standalone.json is to be placed inside the root of your application bundle.
 ####
-#### Configure HTTPS for Ruby with Passenger:
+#### Also note the passenger-standalone.json file already contains some of the configuration needed
+#### to configure HTTPS on the instance.
+####
+#### The full guide to complete the HTTPS configuration on the instance Ruby with Passenger:
 ####  http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/https-singleinstance-ruby.html#Passenger
 ###################################################################################################
 ```
