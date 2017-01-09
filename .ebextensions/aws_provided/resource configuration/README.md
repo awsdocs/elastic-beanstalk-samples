@@ -1,3 +1,6 @@
+### autoscaling-cloudwatch-group-metrics.config
+Configures your environment's Auto Scaling Group to send group metrics to Amazon CloudWatch at 1-minute intervals.
+
 ### autoscaling-triggers-createnew.config
 Add scaling triggers to your environment's AutoScaling group, in addition to those provisioned by Elastic Beanstalk.
 
