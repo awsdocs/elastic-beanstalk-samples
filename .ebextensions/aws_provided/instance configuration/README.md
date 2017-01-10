@@ -7,9 +7,12 @@ Use the `Resources` key to create a new file system in Amazon Elastic File Syste
 ### storage-efs-mountfilesystem.config
 Mount an Amazon EFS file system to a local path on the instances in your environment. You can create the volume as part of the environment with `storage-efs-createfilesystem.config`, or external to your environment by using the Amazon EFS Management Console, AWS CLI, or an SDK.
 
+### storage-imagevolume-docker.config
+Configure the volume used by the instances in your Docker environment.
+
+### package-oracle-jdk.config
+Install Oracle JDK and set as default
+
 ### proxy-configure-nodejs.configs
 Use the option_settings key to modify Node.js Platform Options ProxyServer to select which web server should be used to proxy connections to Node.js.
 Supported values for ProxyServer can be either nginx, apache or none
-
-### storage-imagevolume-docker.config
-Configure the volume used by the instances in your Docker environment.
