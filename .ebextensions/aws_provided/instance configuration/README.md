@@ -1,6 +1,9 @@
 ### cloudwatch-log-stream.config
 Configure Cloudwatch log agent to stream logs to Cloudwatch
 
+### env-regionname.config
+Configure Elastic Beanstalk to pass your environment's region to your application with an environment variable.
+
 ### files-downloadfromS3.config
 Use the `files` key to download a file from a bucket in Amazon S3 to the instances in your environment, providing the instance profile role to use for authorization. Use this mechanism to securely provide your application with secrets that you can't include in your source code, such as private keys and database passwords.
 
