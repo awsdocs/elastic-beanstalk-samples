@@ -9,3 +9,6 @@ Modify the `Timeout` setting on the wait condition that Elastic Beanstalk create
 
 ### workertier-scaleonqueuesize.config
 By default, worker environments scale based on network throughput. Use this configuration file to scale based on the number of jobs waiting in the environment's SQS queue instead.
+
+### vpc-custom-loadbalanced.config
+Use this configuration file to tell Elastic Beanstalk to create your instances and load balancer in a custom VPC that you created, instead of in the default VPC.
