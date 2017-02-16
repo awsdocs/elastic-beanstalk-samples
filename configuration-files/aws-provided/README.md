@@ -1,4 +1,3 @@
-
 ## Environment Configuration
 Configure settings that apply to the environment as a whole including rolling update and deployment settings.
 
