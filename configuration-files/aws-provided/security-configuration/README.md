@@ -12,6 +12,9 @@ Modify your instance's security group to allow HTTPS traffic on port 443. Use in
 ### rds-ssl-java.config
 Install SSL certificates for RDS database connections with JDBC.
 
+### redshift-ssl-java.config
+Install SSL certificates for Redshift database connections with JDBC.
+
 ### securitygroup-addexisting.config
 Configure the Auto Scaling Group to launch EC2 instances with an existing Security Group. This is an additional Security Group to the one automatically created by Elastic Beanstalk for the EC2 instances. Useful when configuring a database's instance Security Group to only accept connections from a specific source Security Group of your Elastic Beanstalk environment's instances.
 
