@@ -22,3 +22,6 @@ Install Oracle JDK and set as default
 ### proxy-configure-nodejs.configs
 Use the option_settings key to modify Node.js Platform Options ProxyServer to select which web server should be used to proxy connections to Node.js.
 Supported values for ProxyServer can be either nginx, apache or none
+
+### logs-uploadonterminate-linux.config
+Publish logs to S3 on termination of a linux instance.
