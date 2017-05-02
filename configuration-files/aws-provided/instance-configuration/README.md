@@ -1,6 +1,9 @@
 ### cloudwatch-log-stream.config
 Configure Cloudwatch log agent to stream logs to Cloudwatch
 
+### cron-leaderonly-linux.config
+Run a cron job on only one Linux instance in the environment
+
 ### env-regionname.config
 Configure Elastic Beanstalk to pass your environment's region to your application with an environment variable.
 
