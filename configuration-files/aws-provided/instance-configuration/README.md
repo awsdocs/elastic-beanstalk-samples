@@ -28,3 +28,6 @@ Supported values for ProxyServer can be either nginx, apache or none
 
 ### logs-uploadonterminate-linux.config
 Publish logs to S3 on termination of a linux instance.
+
+### timezone-linux.config
+Configure the timezone on each instance.
