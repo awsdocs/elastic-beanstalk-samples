@@ -14,5 +14,6 @@ Sample applications that show the use of additional web frameworks, libraries an
 - [Locust Load Generator](https://github.com/awslabs/eb-locustio-sample) - This project shows the use of Java SE platform features to install and run Locust, a load generating tool written in Python. The project includes configuration files that install and configure Locust, a build script that configures a DynamoDB table, and a Procfile that runs Locust.
 - [Share Your Thoughts](https://github.com/awslabs/eb-demo-php-simple-app) ([tutorial](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/php-ha-tutorial.html)) - PHP application that shows the use of MySQL on Amazon RDS, Composer, and configuration files.
 - [A New Startup](https://github.com/awslabs/eb-node-express-sample) ([tutorial](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/nodejs-dynamodb-tutorial.html)) - Node.js sample application that shows the use of DynamoDB, the AWS SDK for JavaScript in Node.js, npm package management, and configuration files.
+- [Cognito Quickstart](https://github.com/awslabs/aws-cognito-angular2-quickstart) - an AngularV4-based QuickStart web app utilizing Amazon Cognito, S3 or Elastic Beanstalk, and DynamoDB (serverless architecture).
 
 The full set of Elastic Beanstalk docs is at http://aws.amazon.com/documentation/elastic-beanstalk/.
