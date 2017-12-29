@@ -1,8 +1,8 @@
 ###################################################################################################
-#### These configuration files configure the proxy server that runs in front of your application
-#### to enable websockets.
+#### This is a collection of configuration files, one per platform. Each configuration file
+#### configures the platform's proxy server that runs in front of your application to enable WebSockets.
 ####
-#### These configuration files work with single-instance and load-balancing environments.
+#### These configuration files work with single-instance and load-balanced environments.
 ####
-#### Please browse to the folder matching the platform for your environment for further information.
+#### Browse to the folder matching your environment's platform for platform-specific information.
 ###################################################################################################
