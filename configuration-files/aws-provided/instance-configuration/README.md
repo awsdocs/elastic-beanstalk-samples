@@ -1,3 +1,8 @@
+### websockets
+Configure the proxy server that runs in front of your application to allow websockets.
+If you're using a Classic Load Balancer, you need to enable TCP listeners. See:
+http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/using-features.managing.elb.html
+
 ### cron-leaderonly-linux.config
 Run a cron job on only one Linux instance in the environment
 
