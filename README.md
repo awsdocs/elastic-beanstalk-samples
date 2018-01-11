@@ -1,11 +1,13 @@
 # elastic-beanstalk-docs
-This repository contains the following content for AWS Elastic Beanstalk users: 
+This repository complements the AWS Elastic Beanstalk documentation. It contains the following content for Elastic Beanstalk users: 
 * [Tutorials](https://github.com/awslabs/elastic-beanstalk-docs/tree/master/tutorials)
 * [Configuration Files (.ebextensions)](https://github.com/awslabs/elastic-beanstalk-docs/tree/master/configuration-files)
 
 You can report issues with the docs, make pull requests, and contribute your own resources to help other AWS Elastic Beanstalk customers use the service. We are committed to helping developers learn more about Beanstalk, and we hope you find the this forum useful. Please don't hesitate to let us know how we can improve it to be more useful.
 
-The full set of Elastic Beanstalk docs is at http://aws.amazon.com/documentation/elastic-beanstalk/.
+The full set of Elastic Beanstalk documents is at http://aws.amazon.com/documentation/elastic-beanstalk/.
+
+An open source version of the Elastic Beanstalk Developer Guide is at https://github.com/awsdocs/aws-elastic-beanstalk-developer-guide/.
 
 ## Sample applications
 Sample applications that show the use of additional web frameworks, libraries and tools are available as open source projects on GitHub.
