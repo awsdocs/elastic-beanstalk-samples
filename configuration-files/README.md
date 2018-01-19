@@ -1,5 +1,5 @@
 ## Contribution instructions
-You can submit new configuration files to the [community-provided](https://github.com/awslabs/elastic-beanstalk-docs/tree/master/configuration-files/community-provided) folder.
+You can submit new configuration files to the [community-provided](https://github.com/awslabs/elastic-beanstalk-samples/tree/master/configuration-files/community-provided) folder.
 
 Name the configuration file in lowercase with terms that describe the category and use case separated by hyphens, ordered from general to specific. For example:
  
