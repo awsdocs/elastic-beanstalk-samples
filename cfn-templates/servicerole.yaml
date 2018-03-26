@@ -33,5 +33,5 @@ Resources:
             Action: 
               - "sts:AssumeRole"
       ManagedPolicyArns:
-        - "arn:aws:iam::aws:policy/AWSElasticBeanstalkService"
+        - "arn:aws:iam::aws:policy/service-role/AWSElasticBeanstalkService"
       RoleName: "beanstalk-servicerole"
