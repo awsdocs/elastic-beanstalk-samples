@@ -1,6 +1,13 @@
 Use the templates in this folder to create external resources for your environment in AWS CloudFormation.
 
-To save a template, right click the link in the following list and choose **Save as**.
+**To create resources in CloudFormation**
+1. Open the [CloudFormation console](https://console.aws.amazon.com/cloudformation/home).
+2. Choose **Create stack**.
+3. Choose **Upload a template to Amazon S3**.
+4. Choose **Upload file** and upload the template file from your local machine.
+5. Choose **Next** and follow the instructions to create a stack with the resources in the template.
+
+To save a template from a web browser, right click the link in the following list and choose **Save as**.
 
 ## [instanceprofile-web.yaml](https://raw.githubusercontent.com/awslabs/elastic-beanstalk-samples/master/cfn-templates/instanceprofile-web.yaml)
 Create an instance profile for a web application.
