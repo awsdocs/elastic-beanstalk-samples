@@ -16,7 +16,7 @@
 #### The following directory structure and configuration file to be placed inside your
 #### .ebextensions folder:
 #### httpd/conf.d/elasticbeanstalk.conf
-#### configures Apache for Java Tomcat environments to redirect HTTP requests on port 80 to HTTPS
+#### configures Apache 2.2 for Java Tomcat environments to redirect HTTP requests on port 80 to HTTPS
 #### on port 443 after you have configured your environment to support HTTPS connections.
 ####
 #### Configuring Your Elastic Beanstalk Environment's Load Balancer to Terminate HTTPS:
