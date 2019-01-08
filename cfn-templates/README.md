@@ -22,4 +22,4 @@ Create a service role that lets Elastic Beanstalk monitor and update your enviro
 Create a VPC with public and private subnets.
 
 ## [vpc-public.yaml](https://raw.githubusercontent.com/awslabs/elastic-beanstalk-samples/master/cfn-templates/vpc-public.yaml)
-Create a VPC with public subnet.
+Create a VPC with public subnets.
