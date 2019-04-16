@@ -27,6 +27,6 @@
 ####
 #### Information on the EB extension configuration directory structure for the reverse proxy:
 #### Configuring the Apache Reverse Proxy:
-####  http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/java-tomcat-platform.html#java-tomcat-proxy-apache
+####  http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/java-tomcat-proxy.html#java-tomcat-proxy-apache
 ###################################################################################################
 ```
