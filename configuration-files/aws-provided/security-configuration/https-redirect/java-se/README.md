@@ -26,6 +26,6 @@
 ####
 #### Information on the EB extension configuration directory structure for the reverse proxy:
 #### Configuring the Reverse Proxy:
-####  http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/java-se-platform.html#java-se-nginx
+####  http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/java-se-nginx.html
 ###################################################################################################
 ```
