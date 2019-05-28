@@ -1,6 +1,3 @@
-### proxy-apache-nodejs.config
-Sets the reverse proxy for a Node.js environment to Apache rather than the Nginx.
-
 ### timeout-commands.config
 Use the `Timeout` option in the `aws:elasticbeanstalk:command` to allow the instances in your environment more time to complete deployments and on-instance configuration changes.
 
