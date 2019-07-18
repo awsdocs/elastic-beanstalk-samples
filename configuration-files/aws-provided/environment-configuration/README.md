@@ -12,3 +12,9 @@ By default, worker environments scale based on network throughput. Use this conf
 
 ### vpc-custom-loadbalanced.config
 Use this configuration file to tell Elastic Beanstalk to create your instances and load balancer in a custom VPC that you created, instead of in the default VPC.
+
+### loadbalancer-clb-workertier.config
+Use this example when you want to enables an internal classic load balancer for a worker-tier environment. Update the Availability Zones details before applying this configuration file in your environment. Test this configuration file in your test environment before applying to production.
+
+### loadbalancer-cross-zone.config
+This configuration file can help in enabling Cross Zone Balancing on a Classic Load Balance. Other configuration options are listed here: https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/command-options-general.html#command-options-general-elbloadbalancer
