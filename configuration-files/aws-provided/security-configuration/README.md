@@ -6,11 +6,22 @@ For single instance environments, include `https-singleinstance-securitygroup.co
 ### https-redirect
 Configure the proxy server that runs in front of your application to redirect HTTP requests on port 80 to the same path on HTTPS/443.
 
+### proxy-ratelimit-linux
+Configure Apache or Nginx to rate limit the amount of unique inbound connections per instance in that environment.
+
 ### https-singleinstance-securitygroup.config
 Modify your instance's security group to allow HTTPS traffic on port 443. Use in conjunction with `https-instancecert-<platform>.config` to support HTTPS connections in a single instance environment.
 
-### proxy-ratelimit-linux
-Configure Apache or Nginx to rate limit the amount of unique inbound connections per instance in that environment.
+### loadbalancer-alb-securelistener.config
+The example uses options in the aws:elbv2:listener namespace to configure an HTTPS listener on port 443 with the specified certificate.
+https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/configuring-https-elb.html#configuring-https-elb.configurationfile
+
+### loadbalancer-clb-securelistener.config
+The example uses options in the aws:elb:listener namespace to configure an HTTPS listener on port 443 with the specified certificate.
+https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/configuring-https-elb.html#configuring-https-elb.configurationfile
+
+### loadbalancer-nlb-securelistener.config
+The example uses options in the aws:elbv2:listener namespace to configure a listener on port 443. The listener routes traffic to the default process. https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/configuring-https-elb.html#configuring-https-elb.configurationfile
 
 ### rds-ssl-java.config
 Install SSL certificates for RDS database connections with JDBC.
@@ -26,6 +37,3 @@ Configure the Security Groups for the ELB and the EC2 instances apart of the Aut
 
 ### ssh-sourcerestriction.config
 Use the `SSHSourceRestriction` option in the `aws:autoscaling:launchconfiguration` namespace to restrict SSH traffic to connections from instances in a security group that you control. By default, Elastic Beanstalk opens port 22 to the world when you assign a key pair to your instances. Use this configuration file to override that behavior.
-
-
-
