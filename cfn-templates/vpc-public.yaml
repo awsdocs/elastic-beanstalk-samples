@@ -13,8 +13,8 @@
 
 ###################################################################################################
 #### By default, Elastic Beanstalk creates all of your application's compute and networking
-#### resources in the default VPC. Use this template to create a custom VPC to isolate your
-#### environment's resources in a private subnet with customizable security.
+#### resources in the default VPC. Use this template to create a custom VPC with public subnets in
+#### two availability zones.
 ####
 #### This template creates the following resources-
 ####   - A VPC with the IP range 172.31.0.0/16
