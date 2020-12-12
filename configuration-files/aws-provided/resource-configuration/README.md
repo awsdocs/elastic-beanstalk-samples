@@ -7,6 +7,9 @@ Configures your environment's Auto Scaling Group to send group metrics to Amazon
 ### autoscaling-memory-utlization.config
 This configuration file will create custom cloudwatch metrics along with alarms to monitor memory usage of EC2 instances and Trigger auto-scale events based on cloud watch alarms. You can find more information about custom monitoring script here: https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/customize-containers-cw.html#customize-containers-cw-update-roles
 
+### autoscaling-memory-utlization-AL1.config
+This configuration file will create custom cloudwatch metrics along with alarms to monitor memory usage of EC2 instances and Trigger auto-scale events based on cloud watch alarms. You can find more information about custom monitoring script here: https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/customize-containers-cw.html#customize-containers-cw-update-roles.  This configuration file only applies to environments running on Amazon Linux AMI (preceding Amazon Linux 2).  For a configuration file that works with Amazon Linux 2 or later, see configuration file: [autoscaling-memory-utlization.config](autoscaling-memory-utlization.config).
+
 ### autoscaling-terminate-newest-instance.config
 Terminate newest instance in autoscaling group at the time of scale down event
 
