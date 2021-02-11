@@ -24,10 +24,7 @@
 #### This template creates the following resources-
 ####   - A VPC with the IP range 172.31.0.0/16
 ####   - 2 private subnets for the EC2 instances that run your application
-####   - 2 public subnets for the load balancer that routes traffic to the instances
-####   - An Internet gateway, NAT gateway, and route table to allow the instances
-####     to communicate with the load balancer and the Internet.
-####
+####  ####
 ###################################################################################################
 
 Resources:
