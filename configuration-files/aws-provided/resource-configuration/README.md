@@ -4,8 +4,8 @@ This configuration file usage resources to configure HTTP to HTTPS auto redirect
 ### autoscaling-cloudwatch-group-metrics.config
 Configures your environment's Auto Scaling Group to send group metrics to Amazon CloudWatch at 1-minute intervals.
 
-### autoscaling-memory-utlization.config
-This configuration file will create custom cloudwatch metrics along with alarms to monitor memory usage of EC2 instances and Trigger auto-scale events based on cloud watch alarms. You can find more information about custom monitoring script here: https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/customize-containers-cw.html#customize-containers-cw-update-roles
+### autoscaling-memory-utilization-cwagent.config
+This configuration file will create custom CloudWatch metrics and alarms to monitor memory usage of EC2 instances and trigger auto scaling events.  You can find more information about configuring the CloudWatch agent here: https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/customize-containers-cw.html#customize-containers-cw-update-roles
 
 ### autoscaling-memory-utlization-AL1.config  
 *NOTE: This configuration file only applies to environments running on Amazon Linux AMI (preceding Amazon Linux 2).  For a configuration file that works with Amazon Linux 2 or later, see configuration file: [autoscaling-memory-utlization.config](autoscaling-memory-utlization.config).*
