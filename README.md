@@ -10,7 +10,6 @@ You can report issues, make pull requests, and contribute your own resources to 
 
 The full set of Elastic Beanstalk documents is at http://aws.amazon.com/documentation/elastic-beanstalk/.
 
-An open source version of the Elastic Beanstalk Developer Guide is at https://github.com/awsdocs/aws-elastic-beanstalk-developer-guide/.
 
 ## Sample applications
 Sample applications that show the use of additional web frameworks, libraries and tools are available as open source projects on GitHub.
