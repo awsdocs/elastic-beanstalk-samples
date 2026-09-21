@@ -1,0 +1,19 @@
+{
+  "name": "bobs-bookstore-node",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A Node.js and PostgreSQL sample for migrating application compute from Heroku to Elastic Beanstalk Cluster Mode",
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test",
+    "check": "node --check app.js && node --check config.js && node --check db.js && node --check logger.js && node --check server.js && node --check views.js"
+  },
+  "dependencies": {
+    "express": "5.2.1",
+    "pg": "8.23.0"
+  }
+}
+
